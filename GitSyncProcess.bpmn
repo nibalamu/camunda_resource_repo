@@ -24,7 +24,7 @@
     </bpmn:endEvent>
     <bpmn:sequenceFlow id="Flow_0exoibh" sourceRef="Event_1ikvgg2" targetRef="Event_1alj88e" />
     <bpmn:sequenceFlow id="Flow_0vncbgu" sourceRef="Activity_0p68tb3" targetRef="Event_0a9555d" />
-    <bpmn:userTask id="Activity_0p68tb3">
+    <bpmn:userTask id="Activity_0p68tb3" name="TEst">
       <bpmn:incoming>Flow_1m2xki6</bpmn:incoming>
       <bpmn:outgoing>Flow_0vncbgu</bpmn:outgoing>
     </bpmn:userTask>
@@ -52,6 +52,7 @@
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Activity_1bcaser_di" bpmnElement="Activity_0p68tb3">
         <dc:Bounds x="400" y="77" width="100" height="80" />
+        <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_0kukoc0_di" bpmnElement="Event_1ikvgg2">
         <dc:Bounds x="302" y="139" width="36" height="36" />

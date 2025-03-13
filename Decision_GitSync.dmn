@@ -26,10 +26,10 @@
       </rule>
       <rule id="DecisionRule_0h2yf5j">
         <inputEntry id="UnaryTests_1wcun5j">
-          <text>"test3"</text>
+          <text>"test3a"</text>
         </inputEntry>
         <outputEntry id="LiteralExpression_005swkz">
-          <text>"test3"</text>
+          <text>"test3a"</text>
         </outputEntry>
       </rule>
     </decisionTable>
