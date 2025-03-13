@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:modeler="http://camunda.org/schema/modeler/1.0" id="Definitions_0hpvbkv" name="DRD" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="5.26.0" modeler:executionPlatform="Camunda Cloud" modeler:executionPlatformVersion="8.5.0">
+  <decision id="Decision_GitSync" name="Decision_GitSync">
+    <decisionTable id="DecisionTable_0rjooe2">
+      <input id="Input_1" label="input">
+        <inputExpression id="InputExpression_1" typeRef="string">
+          <text>input</text>
+        </inputExpression>
+      </input>
+      <output id="Output_1" label="output" name="output" typeRef="string" />
+      <rule id="DecisionRule_1qbj8bn">
+        <inputEntry id="UnaryTests_14ame0b">
+          <text>"test"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0o7jd9o">
+          <text>"test"</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram>
+      <dmndi:DMNShape dmnElementRef="Decision_GitSync">
+        <dc:Bounds height="80" width="180" x="160" y="100" />
+      </dmndi:DMNShape>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+</definitions>
