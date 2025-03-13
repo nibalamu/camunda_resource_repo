@@ -16,6 +16,14 @@
           <text>"test"</text>
         </outputEntry>
       </rule>
+      <rule id="DecisionRule_0unpwed">
+        <inputEntry id="UnaryTests_0oacxuz">
+          <text>"test2"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_15gspbe">
+          <text>"test2"</text>
+        </outputEntry>
+      </rule>
     </decisionTable>
   </decision>
   <dmndi:DMNDI>
