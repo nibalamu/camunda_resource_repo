@@ -32,6 +32,14 @@
           <text>"test3ab"</text>
         </outputEntry>
       </rule>
+      <rule id="DecisionRule_12pz8bk">
+        <inputEntry id="UnaryTests_003oawx">
+          <text>"test4"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0kuw7x9">
+          <text>"test4"</text>
+        </outputEntry>
+      </rule>
     </decisionTable>
   </decision>
   <dmndi:DMNDI>
