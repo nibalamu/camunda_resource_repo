@@ -6,7 +6,7 @@
     </bpmn:startEvent>
     <bpmn:sequenceFlow id="Flow_0rokj0p" sourceRef="StartEvent_1" targetRef="Activity_0d5s3gb" />
     <bpmn:endEvent id="Event_0a9555d" name="End">
-      <bpmn:incoming>Flow_0yzirx5</bpmn:incoming>
+      <bpmn:incoming>Flow_0vncbgu</bpmn:incoming>
     </bpmn:endEvent>
     <bpmn:sequenceFlow id="Flow_1m2xki6" sourceRef="Activity_0d5s3gb" targetRef="Activity_0p68tb3" />
     <bpmn:userTask id="Activity_0d5s3gb" name="Test Git Sync">
@@ -23,15 +23,10 @@
       <bpmn:incoming>Flow_0exoibh</bpmn:incoming>
     </bpmn:endEvent>
     <bpmn:sequenceFlow id="Flow_0exoibh" sourceRef="Event_1ikvgg2" targetRef="Event_1alj88e" />
-    <bpmn:sequenceFlow id="Flow_0vncbgu" sourceRef="Activity_0p68tb3" targetRef="Activity_1kzgj2i" />
+    <bpmn:sequenceFlow id="Flow_0vncbgu" sourceRef="Activity_0p68tb3" targetRef="Event_0a9555d" />
     <bpmn:userTask id="Activity_0p68tb3" name="TestV5">
       <bpmn:incoming>Flow_1m2xki6</bpmn:incoming>
       <bpmn:outgoing>Flow_0vncbgu</bpmn:outgoing>
-    </bpmn:userTask>
-    <bpmn:sequenceFlow id="Flow_0yzirx5" sourceRef="Activity_1kzgj2i" targetRef="Event_0a9555d" />
-    <bpmn:userTask id="Activity_1kzgj2i" name="Test">
-      <bpmn:incoming>Flow_0vncbgu</bpmn:incoming>
-      <bpmn:outgoing>Flow_0yzirx5</bpmn:outgoing>
     </bpmn:userTask>
   </bpmn:process>
   <bpmndi:BPMNDiagram id="BPMNDiagram_1">
@@ -59,10 +54,6 @@
           <dc:Bounds x="670" y="142" width="20" height="14" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_0gvl4wd_di" bpmnElement="Activity_1kzgj2i">
-        <dc:Bounds x="520" y="77" width="100" height="80" />
-        <bpmndi:BPMNLabel />
-      </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_0kukoc0_di" bpmnElement="Event_1ikvgg2">
         <dc:Bounds x="302" y="139" width="36" height="36" />
       </bpmndi:BPMNShape>
@@ -81,10 +72,6 @@
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_0vncbgu_di" bpmnElement="Flow_0vncbgu">
         <di:waypoint x="500" y="117" />
-        <di:waypoint x="520" y="117" />
-      </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="Flow_0yzirx5_di" bpmnElement="Flow_0yzirx5">
-        <di:waypoint x="620" y="117" />
         <di:waypoint x="662" y="117" />
       </bpmndi:BPMNEdge>
     </bpmndi:BPMNPlane>
