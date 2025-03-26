@@ -56,6 +56,14 @@
           <text>"test6"</text>
         </outputEntry>
       </rule>
+      <rule id="DecisionRule_0t1rtkt">
+        <inputEntry id="UnaryTests_0ie6ep1">
+          <text>"test7"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0dr4u4n">
+          <text>"test7"</text>
+        </outputEntry>
+      </rule>
     </decisionTable>
   </decision>
   <dmndi:DMNDI>
